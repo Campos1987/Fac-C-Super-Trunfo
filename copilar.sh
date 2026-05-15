@@ -4,6 +4,7 @@
 # Adicionamos -Wall para ver avisos e -I para ajudar o GCC a achar os headers (.h)
 gcc \
     interface/start/*.c \
+    interface/deck/*.c \
     main.c \
     -o jogo \
     -Wall
